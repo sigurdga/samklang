@@ -1,0 +1,8 @@
+{
+  "name": "samklang",
+  "version": "0.0.1",
+  "description": "An open communications platform where privacy matters",
+  "main": "index.js",
+  "author": "Sigurd Gartmann <sigurdga@sigurdga.no>",
+  "license": "AGPL-3"
+}
