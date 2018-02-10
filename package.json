@@ -6,9 +6,12 @@
   "author": "Sigurd Gartmann <sigurdga@sigurdga.no>",
   "license": "AGPL-3.0",
   "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-jest": "^22.2.2",
     "express": "^4.16.2",
     "express-graphql": "^0.6.11",
     "graphql": "^0.13.0",
+    "mongoose": "^5.0.4",
     "passport": "^0.3.2"
   },
   "devDependencies": {
@@ -22,9 +25,10 @@
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.6.1",
+    "jest": "^22.2.2",
     "nodemon": "^1.14.12"
   },
   "scripts": {
-    "babel-node": "babel-node --presets=/*a*/ --ignore='foo|bar|baz'"
+    "test": "jest"
   }
 }

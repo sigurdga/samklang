@@ -20,7 +20,7 @@ app.use('/graphql', graphHTTP({
 }));
 
 app.get('/', (req, res) => {
-    return res.send("<h1>Nothing here yet</h1><p>Please stay tuned.</p>");
+    return res.send('<h1>Nothing here yet</h1><p>Please stay tuned.</p>');
 });
 
 app.listen(4000);
